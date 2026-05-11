@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/todo")
-@CrossOrigin(origins = "https://todo-ui-weld-kappa.vercel.app/")
+@CrossOrigin(origins = "https://todo-ui-weld-kappa.vercel.app")
 public class TaskController {
 
     private TaskService taskService;
